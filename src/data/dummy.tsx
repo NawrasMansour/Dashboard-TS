@@ -140,7 +140,7 @@ const customerGridStatus = (props : any) => (
     <p>{props.Status}</p>
   </div>
 );
-export const areaPrimaryXAxis = {
+export const areaPrimaryXAxis :any = {
   valueType: 'DateTime',
   labelFormat: 'y',
   majorGridLines: { width: 0 },
@@ -159,7 +159,7 @@ export const areaPrimaryYAxis = {
   labelStyle: { color: 'gray' },
 
 };
-export const barPrimaryXAxis = {
+export const barPrimaryXAxis :any = {
   valueType: 'Category',
   interval: 1,
   majorGridLines: { width: 0 },
@@ -340,7 +340,7 @@ export const rangeColorMapping = [
 
 ];
 
-export const ColorMappingPrimaryXAxis = {
+export const ColorMappingPrimaryXAxis :any= {
   valueType: 'Category',
   majorGridLines: { width: 0 },
   title: 'Months',
@@ -354,7 +354,7 @@ export const ColorMappingPrimaryYAxis = {
   title: 'Temperature',
 };
 
-export const FinancialPrimaryXAxis = {
+export const FinancialPrimaryXAxis :any= {
   valueType: 'DateTime',
   minimum: new Date('2016, 12, 31'),
   maximum: new Date('2017, 9, 30'),
@@ -371,7 +371,7 @@ export const FinancialPrimaryYAxis = {
   majorTickLines: { width: 0 },
 };
 
-export const LinePrimaryXAxis = {
+export const LinePrimaryXAxis :any = {
   valueType: 'DateTime',
   labelFormat: 'y',
   intervalType: 'Years',
@@ -380,7 +380,7 @@ export const LinePrimaryXAxis = {
   background: 'white',
 };
 
-export const LinePrimaryYAxis = {
+export const LinePrimaryYAxis :any = {
   labelFormat: '{value}%',
   rangePadding: 'None',
   minimum: 0,
@@ -3128,7 +3128,7 @@ export const pieChartData = [
   { x: 'Insurance', y: 16, text: '16%' },
 ];
 
-export const contextMenuItems = [
+export const contextMenuItems :any = [
   'AutoFit',
   'AutoFitAll',
   'SortAscending',
@@ -3197,7 +3197,7 @@ export const stackedCustomSeries = [
 
 ];
 
-export const stackedPrimaryXAxis = {
+export const stackedPrimaryXAxis :any = {
   majorGridLines: { width: 0 },
   minorGridLines: { width: 0 },
   majorTickLines: { width: 0 },
